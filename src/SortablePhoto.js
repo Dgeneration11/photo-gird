@@ -9,6 +9,7 @@ export const SortablePhoto = (props) => {
     const {
         attributes,
         listeners,
+        // eslint-disable-next-line
         isDragging,
         setNodeRef,
         transform,
